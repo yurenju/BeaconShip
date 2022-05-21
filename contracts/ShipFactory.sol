@@ -19,6 +19,7 @@ contract ShipFactory {
             abi.encodeWithSelector(Ship(address(0)).initialize.selector, _name, _fuel)
         );
         ships[shipId] = address(ship);
+        Ship(address(ship)).move();
     }
 
     function getShipAddress(uint32 shipId) external view returns (address) {

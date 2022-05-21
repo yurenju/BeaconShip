@@ -1,7 +1,8 @@
 {
   "name": "hardhat-project",
   "scripts": {
-    "build": "hardhat compile"
+    "build": "hardhat compile",
+    "start": "hardhat run ./scripts/sample-script.js"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.6",

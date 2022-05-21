@@ -1,15 +1,15 @@
-# Basic Sample Hardhat Project
+# BeaconShip
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+this is an example for BeaconProxy and the source comes from [DEVELOP AN UPGRADEABLE SMART CONTRACT USING UPGRADEABLE BEACON AND FACTORY - YouTube](https://www.youtube.com/watch?v=2acgw589jRM).
 
-Try running some of the following tasks:
+![BeaconProxy diagram](diagram.png)
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+## Usage
+
+```bash
+# install all dependencies, please use node 16
+$ npm install 
+
+# deploy to local development network and print information for ship
+$ npm start 
 ```
